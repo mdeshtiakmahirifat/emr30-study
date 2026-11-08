@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="bn" data-theme="light">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123c3a"><meta name="description" content="EMR30 Year 1: a complete bilingual Physics study companion with 262 daily plans, exact reading pages, calendar and progress tracking.">
+  <title>EMR30 · The first year</title><link rel="icon" href="./icon.svg" type="image/svg+xml"><link rel="manifest" href="./manifest.webmanifest">
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem('emr30.theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch(e){}</script>
+  <link rel="stylesheet" href="./style.css"><script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to study plan</a>
+  <header class="topbar"><a class="brand" href="#day" aria-label="EMR30 home"><span class="brand-orbit" aria-hidden="true">e</span><span>EMR<span class="brand-light">30</span><small>THE FIRST YEAR</small></span></a>
+    <nav aria-label="Main navigation" id="navigation"></nav>
+    <div class="preferences"><button id="language" class="pill" aria-label="Switch to English">EN <span aria-hidden="true">⇄</span> বাংলা</button><button id="theme" class="icon-button" aria-label="Toggle theme"></button></div>
+  </header>
+  <main id="main"><div class="loading">EMR30 · তোমার পড়ার বছর সাজানো হচ্ছে…</div></main>
+  <footer id="footer"></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <input type="file" id="import-file" accept="application/json,.json" hidden>
+  <noscript>এই study planner ব্যবহার করতে JavaScript চালু করো। Enable JavaScript to use this study planner.</noscript>
+</body></html>
